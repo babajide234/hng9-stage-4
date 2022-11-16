@@ -1,18 +1,16 @@
 import {createBrowserRouter} from "react-router-dom";
   import Layout from '../pages/Layout'
   import Home from '../pages/Home'
-  import Search from '../components/Search'
-  
+  import SearchPage from '../pages/Search'
+
 const route = createBrowserRouter([
     {
         path:'/',
-        element: <Layout/>,
-        children: [
-            {
-                path:'/',
-                element:<Home/>,
-            }
-        ]
+        element: <Home/>,
+    },
+    {
+        path:'/place',
+        element: <SearchPage/>,
     }
 ]);
 
