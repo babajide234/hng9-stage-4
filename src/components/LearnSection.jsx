@@ -6,7 +6,7 @@ import Img9 from '../assets/image 9.png'
 const LearnSection = () => {
   return (
     <div className=" bg-primary px-6 md:px-32 md:py-28">
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col  md:flex-row">
             <div className=" w-full md:w-1/3 text-white pb-11">
                 <h2 className=" text-5xl mb-9 mt-16">Metabnb NFTs</h2>
                 <p className=" text-lg leading-9 mb-12">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
