@@ -9,8 +9,8 @@ const num = 16;
     <>
         <Layout>
             <Filter/>
-            <div className=" px-32 pb-20">
-                <div className="  md:grid md:grid-cols-4 mt-12 gap-5 ">
+            <div className=" md:px-32 px-6 pb-20">
+                <div className=" flex flex-col md:grid md:grid-cols-4 md:mt-12 gap-5 ">
                     { Array(num).fill(true).map((_, i) => <Card key={i} />) }
                 </div>
             </div>

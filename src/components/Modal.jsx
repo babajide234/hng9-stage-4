@@ -9,7 +9,7 @@ const Modal = ({open,close}) => {
   return (
     <>
         <div className={`w-full h-screen ${open ? 'flex':'hidden'} justify-center items-center fixed top-0 bg-gray-800 bg-opacity-30 z-30`}>
-            <div className=" w-2/5  bg-white rounded-2xl  ">
+            <div className=" w-4/5 md:w-2/5  bg-white rounded-2xl  ">
                 <div className="px-8 py-6 border-b flex justify-between border-gray-300">
                     <h2 className="">Connect Wallet</h2>
                     <span onClick={handleClose} className=" w-6 h-6 rounded-full flex justify-center items-center text-gray-400 cursor-pointer hover:text-gray-800 p-4 hover:bg-slate-100">X</span>
