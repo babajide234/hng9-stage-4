@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <>
       <header className=' '>
-          <div className="flex justify-between items-center md:px-32 md:py-10">
+          <div className="flex justify-between items-center px-6 py-6 md:px-32 md:py-10">
 
-              <img src={Logo} alt="" className=" w-52 " />
-              <ul className=" flex ">
+              <img src={Logo} alt="" className=" w-40 md:w-52 " />
+              <ul className="  hidden md:flex ">
                   <li className=" mr-12 text-secondary"><Link to="/" className="">Home</Link></li>
                   <li className=" mr-12 text-secondary"><Link to="/place" className="">Place to stay</Link></li>
                   <li className=" mr-12 text-secondary"><Link to="/" className="">NFTs</Link></li>
